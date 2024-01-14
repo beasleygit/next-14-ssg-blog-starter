@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+    * {
+      min-width: 0;
+    }
     h1 {
       @apply text-4xl;
       @apply font-bold;
